@@ -1,5 +1,5 @@
 # 🏨 Hotel Booking Analysis Dashboard
-![a display of results](hotel_1.png,hotel_2.png)
+![a display of results](hotel_1.jpg,hotel_2.jpg)
 
 ## Project Overview
 
