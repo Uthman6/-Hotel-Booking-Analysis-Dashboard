@@ -1,2 +1,52 @@
-# Hotel-Booking-Analysis-Dashboard
-Project OverviewThis repository contains a comprehensive interactive dashboard for analyzing hotel booking patterns, revenue performance, and key operational metrics. The analysis provides deep insights into customer behavior, cancellation rates, lead times, and revenue generation across different customer types and countries, enabling data-driven strategic decisions for hotel management.Key FeaturesThe dashboard is designed to provide quick and actionable insights through several key visualizations and metrics:Metric/InsightDescriptionTotal Revenue & LossDisplays the sum of revenue generated and the total estimated revenue loss due to cancellations.Booking & Cancellation TrendAnalyzes the count of bookings and the breakdown of bookings that were Cancelled (1) versus Not Cancelled (0).Customer SegmentationBreaks down revenue, lead time, and distribution channel by Customer Type (e.g., Transient, Group, Contract).Geographic PerformanceIdentifies the Top Performing Countries by total revenue and total bookings.Lead Time AnalysisVisualizes the average lead time (days between booking and arrival) by customer type and its distribution across guests.Hotel Type BreakdownShows the distribution of bookings (Sum of Nights) across different Hotel Types (e.g., City vs. Resort).Deposit Type ImpactAnalyzes revenue based on the Deposit Type (e.g., No Deposit, Non-Refundable, Refundable).Data SourceThe dashboard utilizes a single, cleaned CSV file derived from a detailed hotel booking database.File Name: Hotel booking.xlsx - Sheet1.csvRows: Approximately 119K recordsKey Columns: Booking ID, Hotel, Arrival Date, Lead Time, Nights, Guests, Customer Type, Country, Cancelled (0/1), Revenue, and Revenue Loss.⚙️ Setup and Usage(This section is a placeholder. Please provide the tool (Power BI, Tableau, etc.) so I can write the exact instructions.)Instructions Placeholder:Download and Install: [Software name, e.g., Power BI Desktop]Open the File: Download and open the project file ([Project File Name, e.g., Hotel_Analysis.pbix]) within the software.Interact: The dashboard is now ready for exploration. Use the slicers and filters to drill down into specific segments of the data.Future EnhancementsIncorporate time intelligence to analyze Month-over-Month (MoM) or Year-over-Year (YoY) revenue growth.Develop a predictive model to estimate the likelihood of a booking being cancelled.Add external holiday or events data to identify correlations with booking peaks.Create a drill-through page for individual booking detail lookup.AuthorDesign by Abdurrahman Uthman
+# 🏨 Hotel Booking Analysis Dashboard
+!{a display result}(hotel_1.png)
+
+## Project Overview
+
+This repository contains a comprehensive interactive dashboard for analyzing hotel booking patterns, revenue performance, and key operational metrics. The analysis provides deep insights into customer behavior, cancellation rates, lead times, and revenue generation across different customer types and countries, enabling data-driven strategic decisions for hotel management.
+
+The original design was created by **Abdurrahman Uthman**.
+
+## ✨ Key Features & Metrics
+
+The dashboard is designed to provide quick and actionable insights through several key visualizations and calculated metrics:
+
+| Metric/Insight | Description |
+| :--- | :--- |
+| **Total Revenue & Loss** | Displays the sum of revenue generated and the total estimated revenue loss due to cancellations. |
+| **Total Bookings & Guests** | Key high-level figures for total bookings and the total number of guests. |
+| **Booking & Cancellation Trend** | Analyzes the count of bookings and the breakdown of bookings that were **Cancelled (1)** versus **Not Cancelled (0)**. |
+| **Customer Segmentation** | Breaks down revenue, lead time, and distribution channel by **Customer Type** (e.g., Transient, Group, Contract). |
+| **Geographic Performance** | Identifies the **Top Performing Countries** by total revenue and total bookings. |
+| **Lead Time Analysis** | Visualizes the average lead time (days between booking and arrival) by customer type and its distribution across guests. |
+| **Hotel Type Breakdown** | Shows the distribution of bookings (Sum of Nights) across different **Hotel Types** (e.g., City vs. Resort). |
+| **Deposit Type Impact** | Analyzes revenue based on the **Deposit Type** (e.g., No Deposit, Non-Refundable, Refundable). |
+
+## 📊 Data Source
+
+The dashboard utilizes a detailed dataset of hotel booking transactions.
+
+* **Source File:** `Hotel booking.xlsx - Sheet1.csv`
+* **Size:** Over 119,000 records
+* **Key Data Points:** Includes `Booking ID`, `Hotel`, `Arrival Date`, `Lead Time`, `Nights`, `Guests`, `Customer Type`, `Country`, `Cancelled (0/1)`, `Revenue`, and `Revenue Loss`.
+
+## ⚙️ Setup and Usage
+
+**⚠️ IMPORTANT:** The instructions below must be updated with the specific tool you used (e.g., Power BI, Tableau, Streamlit).
+
+### **\[Replace this with the name of the tool you used, e.g., Power BI Setup]**
+
+1.  **Download Software:** Download and install **\[Insert Software Name here, e.g., Power BI Desktop]**.
+2.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/YOUR-USERNAME/YOUR-REPO.git](https://github.com/YOUR-USERNAME/YOUR-REPO.git)
+    cd YOUR-REPO
+    ```
+3.  **Open the Project:** Open the project file (`[Insert File Name here, e.g., Hotel_Analysis.pbix]`) within the installed software.
+4.  **Interact:** The dashboard should automatically load. Use the interactive filters and slicers on the report pages to explore the data.
+
+## 🚀 Future Enhancements
+
+* Incorporate time intelligence to analyze **Month-over-Month (MoM)** and **Year-over-Year (YoY)** performance.
+* Develop a predictive model to estimate the **likelihood of a booking being cancelled**.
+* Add external data (e.g., local events or competitor pricing) to enrich the analysis.
