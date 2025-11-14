@@ -30,21 +30,6 @@ The dashboard utilizes a detailed dataset of hotel booking transactions.
 * **Size:** Over 119,000 records
 * **Key Data Points:** Includes `Booking ID`, `Hotel`, `Arrival Date`, `Lead Time`, `Nights`, `Guests`, `Customer Type`, `Country`, `Cancelled (0/1)`, `Revenue`, and `Revenue Loss`.
 
-## ⚙️ Setup and Usage
-
-**⚠️ IMPORTANT:** The instructions below must be updated with the specific tool you used (e.g., Power BI, Tableau, Streamlit).
-
-### **\[Replace this with the name of the tool you used, e.g., Power BI Setup]**
-
-1.  **Download Software:** Download and install **\[Insert Software Name here, e.g., Power BI Desktop]**.
-2.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/YOUR-USERNAME/YOUR-REPO.git](https://github.com/YOUR-USERNAME/YOUR-REPO.git)
-    cd YOUR-REPO
-    ```
-3.  **Open the Project:** Open the project file (`[Insert File Name here, e.g., Hotel_Analysis.pbix]`) within the installed software.
-4.  **Interact:** The dashboard should automatically load. Use the interactive filters and slicers on the report pages to explore the data.
-
 ## 🚀 Future Enhancements
 
 * Incorporate time intelligence to analyze **Month-over-Month (MoM)** and **Year-over-Year (YoY)** performance.
